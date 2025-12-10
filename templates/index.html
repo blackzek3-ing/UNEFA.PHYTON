@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Interactiva (Flask)</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+<header>
+    <img src="/static/images/LogoUnefa.png" alt="Logo UNEFA">
+</header>
+    
+    <h1>Calculadora Interactiva (Flask)</h1>
+
+    <div class="calculadora">
+        <div class="pantalla">
+            <div id="pantalla-anterior"></div>
+            <div id="pantalla-actual">0</div>
+        </div>
+
+        <button class="numero">7</button>
+        <button class="numero">8</button>
+        <button class="numero">9</button>
+        <button class="operador" data-operador="+">+</button>
+        
+        <button class="numero">4</button>
+        <button class="numero">5</button>
+        <button class="numero">6</button>
+        <button class="operador" data-operador="-">-</button>
+
+        <button class="numero">1</button>
+        <button class="numero">2</button>
+        <button class="numero">3</button>
+        <button class="operador" data-operador="*">*</button>
+        
+        <button id="clear">C</button>
+        <button class="numero">0</button>
+        <button id="equals">=</button>
+        <button class="operador" data-operador="/">/</button>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+
+</body>
+</html>
